@@ -9,6 +9,14 @@ public class Student {
         this.studentName = studentName;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentID=" + studentID +
+                ", studentName='" + studentName + '\'' +
+                '}';
+    }
+
     public Integer getStudentID() {
         return studentID;
     }
